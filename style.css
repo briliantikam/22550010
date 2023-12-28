@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;                      
+    color: rgb(5, 4, 4);
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  .table-container {
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  .table-container td {
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 30px;
+  }
+  
+  .logo {
+    width: 75%;
+    margin: 30px 0;
+  }
+  
+  .baris-header td {
+    text-align: center;
+  }
+  
+  .baris-navbar td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .konten {
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+
+    
+  }
+  
+  .tentang-img {
+    text-align: center;
+    vertical-align: top;
+    padding: 18px 10px;
+  }
+  
+  .tentang-img img {
+    width: 100%;
+  }
+  
+  img {
+    border-radius: 7px;
+    max-width: 100%;
+  }
+  
+  
+  /* REUSABLE */
+  
+  .center {
+      text-align: center;
+  }
+  
+  .active {
+      color: black;
+      font-weight: bold;
+  }
